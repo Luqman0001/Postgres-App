@@ -8,7 +8,11 @@ export class UserService {
   }
 
   findAll() {
-    return `This action returns all user`;
+    let mesg = 'Now its working on get request '
+    return {
+      sucess: true,
+      result: mesg
+    }
   }
 
   findOne(id: number) {
